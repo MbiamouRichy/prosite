@@ -65,16 +65,16 @@
       <div class="head-info">
         <ul>
           <li> <i class="fa fa-phone"></i>
-            <p>1010 2020 36360<br>
-              9-269-690-HMS</p>
+            <p>+237 655 794 769<br>
+              +237 683 230 601</p>
           </li>
           <li> <i class="fas fa-envelope"></i>
-            <p>hmsphp@gmail.com<br>
-              info@hmsphp.com</p>
+            <p>WWW.groupebbp.com<br>
+                contact@groupebbp.com</p>
           </li>
           <li> <i class="fa fa-map-marker"></i>
-            <p>1942  Poe Lane<br>
-             Kansas City</p>
+            <p>Clinique les merveilles<br>
+            Ndokoti DOUALA</p>
           </li>
         </ul>
       </div>
@@ -95,11 +95,10 @@
         <div class="collapse navbar-collapse" id="nav-open-btn">
           <ul class="nav">
             <li> <a href="#">Accueil </a></li>
-            <li><a href="#">A Propos</a></li>
-            <li><a href="#">Produits et Services</a></li>
-              <li><a href="#">Catalogues</a></li>
-              <li><a href="#">Clients</a></li>
-              <li><a href="#">Contacts</a></li>
+            <li><a href="#apropos">A Propos</a></li>
+            <li><a href="#produit">Produits et Services</a></li>
+              <li><a href="#client">Clients</a></li>
+              <li><a href="#contact">Contacts</a></li>
             <li class="dropdown"> <a href="http://localhost/InfixEdu_v5/index.php/login" >SE Connecter</a>
              <!-- class="dropdown-toggle" data-toggle="dropdown"
              <ul class="dropdown-menu multi-level" style="display: none;">

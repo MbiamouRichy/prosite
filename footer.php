@@ -1,4 +1,4 @@
-<footer class="footer-area section_gap">
+<footer class="footer-area section_gap" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 single-footer-widget">
@@ -7,32 +7,28 @@
                     <li><a href="#">AGAES</a></li>
                     <li><a href="#">Pourquoi AGAES ?</a></li>
                     <li><a href="#">Vos avantages</a></li>
-                    <li><a href="#">Histoire</a></li>
                 </ul>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 single-footer-widget">
                 <h4>Lien rapide</h4>
                 <ul>
                     <li><a href="#">Emploi</a></li>
-                    <li><a href="#">Actifs de marque</a></li>
                     <li><a href="#">Relations</a></li>
                     <li><a href="#">conditions d'utilisation</a></li>
                 </ul>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 single-footer-widget">
-                <h4>Produits et Services</h4>
+                <h4>Solution</h4>
                 <ul>
                     <li><a href="#">Logiciel pour college</a></li>
                     <li><a href="#">Logiciel pour universite</a></li>
                     <li><a href="#">Integration</a></li>
-                    <li><a href="#">Service de suivi</a></li>
                 </ul>
             </div>
             <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 single-footer-widget">
                 <h4>Ressources</h4>
                 <ul>
                     <li><a href="#">Guides</a></li>
-                    <li><a href="#">Recherches</a></li>
                     <li><a href="#">Experts</a></li>
                     <li><a href="#">Agences</a></li>
                 </ul>

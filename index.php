@@ -167,12 +167,12 @@
   <!-- bouton a droit-->
    <div class="whats-float">
           <a href="#" >
-              <i class="fab fa-whatsapp"></i><span>WhatsApp<br><small>+91-9726748800</small></span>
+              <i class="fab fa-whatsapp"></i><span>WhatsApp<br><small>+237 655 794 769</small></span>
           </a>
    </div>
   <div class="cal-float">
       <a href="#">
-          <i class="fas fa-phone"></i><span>Call:<br><small>+91-9726748800</small></span>
+          <i class="fas fa-phone"></i><span>Call:<br><small>+237 697 991 579</small></span>
        </a>
   </div>
 
@@ -180,8 +180,11 @@
   <div id="content">
 
       <!--================================= premier block du content ============================-->
-
+      <div id="client" style="visibility: hidden"></div>
       <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-android swiper-backface-hidden">
+          <div class="col-md-12 col-sm-12 power margin-top-60 res">
+              <h1 class="text-primary text-center">NOS PARTENAIRES</h1>
+          </div>
           <div class="swiper-wrapper" id="swiper-wrapper-bd857255a9296233" aria-live="off" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
               <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 9"><img src="images/logo_ahmedabad_education_society%20(1).svg" class="img-fluid img-responsive"></div>
               <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 9"><img src="images/logo_nirma.svg" class="img-fluid img-responsive"></div>
@@ -193,14 +196,14 @@
               <div class="swiper-slide" role="group" aria-label="8 / 9"><img src="images/logo_ahmedabad_education_society.svg" class="img-fluid img-responsive"></div>
               <div class="swiper-slide" role="group" aria-label="9 / 9" ><img src="images/LP_Savani.svg" class="img-fluid img-responsive"></div>
           </div>
-
+      </div>
       <!--================================= deuxieme block du content ============================-->
 
-      <div class="bg-white hero-section">
+      <div class="bg-white hero-section" id="apropos">
           <div class="container pt-0_2">
               <div class="row">
                   <div class="col-md-6 col-sm-12 power">
-                      <h1 class="text-primary txt mb-1_75 mb-md-3 mr-lg-n-6">le Systeme BBP ACADEMY</h1>
+                      <h1 class="text-primary txt mb-1_75 mb-md-3 mr-lg-n-6">Le Systeme BBP ACADEMY</h1>
                       <h3 class="text-primary mb-1_75 mb-md-3">Une solution de système d'information sur les élèves, etudiants et apprenants</h3>
                       <p class="lead mb-2">Le principal système d'information sur les apprenants qui fournit une technologie flexible, innovante et facile à utiliser <br> pour alimenter les opérations de votre école ou de votre district.</p>
                       <div class="d-lg-flex align-items-center mt-n-1_75 pt-px mt-md-2">
@@ -224,11 +227,14 @@
 
   <!--================================= quatrieme block du content ============================-->
 
-  <section class="container-fluid margin-top-40 padding-7">
+  <section class="container-fluid margin-top-40 padding-7" id="produit">
       <div class="container">
           <div class="row">
               <div class="col-lg-12 col-md-12 col-sm-12 m-0 text-center">
                     <h5 class="h5titre text-center">BBP ACADEMY connecte et facilite les échanges entre utilisateurs</h5>
+                  <div class="col-md-12 col-sm-12 power margin-top-60 res">
+                      <h1 class="text-primary text-center">NOS PRODUITS</h1>
+                  </div>
               </div>
               <div class="col-lg-12 d-flex justify-content-center align-content-center">
                   <img class="img-fluid img-responsive" width="768" height="768" src="images/collaboration-sidebar-768x768.png" alt="Profils-agaes" loading="lazy">

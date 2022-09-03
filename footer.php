@@ -1,4 +1,4 @@
-<footer class="footer-area section_gap" id="contact">
+    <footer class="footer-area section_gap" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12 single-footer-widget">
@@ -68,17 +68,19 @@
   
   <!-- GO TO TOP  --> 
   <a href="#" class="cd-top"><i class="fa fa-angle-up"></i></a> 
-  <!-- GO TO TOP  --> 
-</div>
+  <!-- GO TO TOP  -->
 <!-- End Page Wrapper -->
+<!--
 <div  class="talents__item" id="talents__item">
     <div class="items bg-dark ">
         <span onclick="toggle()" class="boutonv affichage">&times;</span>
     </div>
     <div class="container-fluid">
-        <video class="w-100 h-100" src="video/test2.mp4" type="video/mp4" controls preload="metadata" autoplay></video>
+        <video class="video" src="video/test2.mp4" type="video/mp4" controls preload="metadata" autoplay></video>
     </div>
 </div>
+-->
+
 <!-- JavaScripts --> 
 <script src="js/vendors/jquery/jquery.min.js"></script> 
 <script src="js/vendors/wow.min.js"></script> 
@@ -96,23 +98,7 @@
 <script src="js/main.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
 
-  <!-- Initialize Swiper
-<script>
-    var swiper = new Swiper(".mySwiper", {
-        effect: "coverflow",
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: "auto",
-        coverflowEffect: {
-            rotate: 0,
-            stretch: 0,
-            depth: 100,
-            modifier: 2,
-            slideShadows: true,
-        },
-        loop :true,
-    });
-</script>-->
+  <!-- Initialize Swiper -->
 <script>
     var swiper = new Swiper(".mySwiper", {
         spaceBetween: 30,
@@ -142,7 +128,7 @@
         },
     });
 </script>
-<script>
+<!--<script>
     function toggle(){
         var blur = document.getElementById('blur');
         blur.classList.toggle('active');
@@ -151,6 +137,7 @@
 
     }
 </script>
+-->
 <script>
     const nav = document.querySelector('.navbar');
 

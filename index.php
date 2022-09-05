@@ -157,7 +157,7 @@
                 data-endelementdelay="0.1" 
                 data-endspeed="300" 
                 data-scrolloffset="0"
-                style="z-index: 7; font-size:22px; font-weight:500; line-height:26px; color:rgb(0,36,150); max-width: auto; max-height: auto; white-space: nowrap;">Nous travaillons en amicale et efficacement avec les dernieres<br>
+                style="z-index: 7; font-size:22px; font-weight:500; line-height:26px; color:rgb(28,28,26); max-width: auto; max-height: auto; white-space: nowrap;">Nous travaillons en amicale et efficacement avec les dernieres<br>
               technologies et echanges entre les societes .</div>
           </li>
         </ul>

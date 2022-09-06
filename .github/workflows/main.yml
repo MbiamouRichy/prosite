@@ -1,40 +1,41 @@
-name: Build and deploy
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
 
+ 1.15 KB | None
+      
+name: CI-SFTP
+ 
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+#  pull_request:
+#    branches: [ main ]
+ 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+ 
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  build:
-    name: Build ⛏
-    runs-on: windows
+  # This workflow contains a single job called "SFTP"
+  deploy-via-sftp:
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@main
-      - name: Install dependencies
-        run: npm ci
-      - name: Build dependencies
-        run: npm run build
-      - name: Archive production artifact
-        uses: actions/upload-artifact@main
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+          
+      - name: SFTP Deploy
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.1
         with:
-          name: dist
-          path: dist
-  deploy:
-    name: Deploy 🚀
-    needs: build
-    runs-on: windows
-    steps: 
-      - name: Checkout repository
-        uses: actions/checkout@main
-      - name: Download artifact
-        uses: actions/download-artifact@main
-        with: 
-          name: dist
-          path: dist
-      - name: Sync files to hosting
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
-        with: 
-          server: ftp.lacroustille.com                       
-          username: lacro1818469                 
-          password: ${{ secrets.ftp_password }}
+          username: logicism
+          server: logicism.ddns.net
+          port: 22 # default is 22
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+ 
+          
+          # will put all file under this path
+          local_path: ./* # default is ./*
+          # files will copy to under remote_path
+          remote_path: /var/www
+          
+          # sftp args
+          args: '-o ConnectTimeout=5'

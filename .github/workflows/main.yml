@@ -29,7 +29,7 @@ jobs:
           username: logicism
           server: logicism.ddns.net
           port: 22 # default is 22
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh_private_key: ${{ secrets.SSH_PASSWORD_NAME }}
  
           
           # will put all file under this path

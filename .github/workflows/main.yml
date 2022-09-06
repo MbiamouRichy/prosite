@@ -1,0 +1,42 @@
+name: Build and deploy
+on:
+ push:
+  branches: [main]
+ workflow_dispatch:
+ 
+jobs:
+ build:
+  name: Build
+  runs-on: windows-latest
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@main
+    - name: Install dependencies
+      run: npm ci
+    - name: Build dependencies
+      run: npm run build
+    - name: Archive production artifact
+      uses: actions/upload-artifact@main
+      with:
+        name: dist
+        path: dist
+ deploy:
+  name: deploy
+  needs: build
+  runs-on: windows-latest
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@main
+    - name: Download artifact
+      uses: actions/download-artifact@main
+      with:
+        name: dist
+        path: dist
+    - name: Sync files to hosting
+      uses: Samkirland/FTP-Deploy-Action@4.0.0
+      with:
+        server: ftp.lacroustille.com
+        username: lacro1818469
+        password: ${{ secrets.ftp_password }}
+         
+

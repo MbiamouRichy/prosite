@@ -1,3 +1,0 @@
-<htm>
-<p>Bonjour le monde</>
-</html>

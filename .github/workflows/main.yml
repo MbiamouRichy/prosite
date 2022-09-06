@@ -6,7 +6,7 @@ on:
  
 jobs:
  build:
-  name: Build
+  name: Build ⛏
   runs-on: windows-latest
   steps:
     - name: Checkout repository
@@ -21,10 +21,10 @@ jobs:
         name: dist
         path: dist
  deploy:
-  name: deploy
-  needs: build
-  runs-on: windows-latest
-  steps:
+   name: deploy 🚀
+   needs: build 
+   runs-on: windows-latest
+   steps:
     - name: Checkout repository
       uses: actions/checkout@main
     - name: Download artifact

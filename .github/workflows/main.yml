@@ -17,4 +17,4 @@ jobs:
         server: ftp.lacroustille.com                       
         username: ${{ secrets.ftp_username}}
         password: ${{ secrets.ftp_password }}
-        server-dir: /gestion/production.watch-learn.com/
+       

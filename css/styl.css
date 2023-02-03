@@ -983,11 +983,13 @@ header .is-sticky .sticky .logo {
 .header-style-2 .navbar li:nth-child(1) {
   margin-left: 0px;
 }
+
 .header-style-2 .navbar {
   background: rgb(0, 36, 150);
+
 }
 .header-style-2 .ownmenu .nav .dropdown-menu {
-  margin-top: 0px !important;
+ margin-top: 0px;
 }
 .dropdown-submenu > a:hover:after {
   color: #fff;
@@ -996,7 +998,7 @@ header .is-sticky .sticky .logo {
   content: "\e876";
   float: right;
   font-family: "Linearicons-Free";
-  color: rgb(28,28,26);
+  color: rgb(255, 255, 255);
   font-size: 8px;
   margin: 0px;
   position: absolute;
@@ -1004,16 +1006,6 @@ header .is-sticky .sticky .logo {
   top: 0px;
   display: block !important;
 }
-header .navbar li .lien i{
-  font-size: 15px;
-  padding: 15px;
-  border-radius: 50%;
-  text-align: center;
-  background-color: white;
-  color: rgb(28,28,26);
-  margin-bottom: 0px;
-}
-
 
 .header-style-2 .navbar-toggle{
   border: 0  !important;
@@ -1059,6 +1051,12 @@ header .navbar li .lien i{
 }
 .header-style-2 .navbar-toggle.collapsed .toggle-icon{
   background-color: rgb(0, 36, 150) !important;
+}
+.header-style-2 .navbar .nav, .header-style-2 .ownmenu .nav.show{
+  display: flex!important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 /*=======================================================

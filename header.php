@@ -99,14 +99,13 @@
             <li><a href="#produit">Produits et Services</a></li>
               <li><a href="#client">Clients</a></li>
               <li><a href="#contact">Contacts</a></li>
-            <li class="dropdown"> <a href="../index.php/login" >SE Connecter</a>
-             <!-- class="dropdown-toggle" data-toggle="dropdown"
-             <ul class="dropdown-menu multi-level" style="display: none;">
-                <li><a href="http://localhost/InfixEdu_v5/index.php/login">Admin</a></li>
+            <li class="dropdown-toggle" data-toggle="dropdown"> <a>SE Connecter<i class="fas fa-angle-down"></i></a>
+              <ul class="dropdown-menu multi-level" style="display: none;">
+                <li><a href="">Admin</a></li>
                 <li><a href="#">Enseignant</a></li>
                 <li><a href="#">Etudiant</a></li>
-                  <li><a href="#">Parent</a></li>
-              </ul> -->
+                <li><a href="#">Parent</a></li>
+              </ul>
             </li>
           </ul>
         </div>
